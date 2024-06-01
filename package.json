@@ -6,7 +6,7 @@
     "start": "live-server",
     "build": "tailwindcss -i src/styles.css -o dist/styles.css",
     "watch": "tailwindcss -i src/styles.css -o dist/styles.css --watch",
-    "dev": "npm-run-all --parallel watch start"
+    "dev": "npm-run-all --parallel watch start build"
   },
   "keywords": [],
   "author": "",
