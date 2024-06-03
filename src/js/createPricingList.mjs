@@ -13,13 +13,14 @@ export default function createPricingList() {
         div.classList.add('flex', 'justify-between');
 
         const p1 = document.createElement('p');
+
         p1.id = `${element.type}-title`;
         p1.textContent = element.no
 
         const p2 = document.createElement('p');
 
         if (element.pre_text.no !== '') {
-            p2.innerHTML = `<span id=${element.type}-preText>${element.pre_text.no}</span> ${element.price} kr	`;
+            p2.innerHTML = `<span class=" font-light" id=${element.type}-preText>${element.pre_text.no}</span> ${element.price} kr	`;
         } else  {
             p2.textContent = element.price + ' kr';
         }

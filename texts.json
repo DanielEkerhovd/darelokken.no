@@ -30,10 +30,10 @@
     "intro": {
         "intro_start": {
             "no": "Dårelokken åpna dørene fyste gong i 1988 og har siden den gong vert dreven av to sprudlende damer med fokus på fnasne frisyrer og god service",
-            "en": "Dårelokken opened its doors for the first time in 1988 and has since then been run by two ladies with a focus on nice hairstyles and good service"
+            "en": "Dårelokken opened its doors for the first time in 1988 and has since then been run by the same two ladies with a focus on great hair styles and good service"
         },
         "intro_end": {
-            "no": "Du er hjerteleg velkommen til salongen i Vangsgata for ein hårklipp og ein kopp kaffi!",
+            "no": "Du er hjartleg velkommen til salongen i Vangsgata for ein hårklipp og ein kopp kaffi!",
             "en": "You are warmly welcome to the salon in Vangsgata for a haircut and a cup of coffee!"
         }
     },
@@ -85,7 +85,7 @@
                 "type": "men",
                 "no": "Herreklipp",
                 "en": "Men's cut",
-                "price": "300",
+                "price": "680",
                 "pre_text": {
                     "no": "",
                     "en": ""
@@ -95,7 +95,7 @@
                 "type": "women",
                 "no": "Dameklipp",
                 "en": "Women's cut",
-                "price": "500",
+                "price": "970",
                 "pre_text": {
                     "no": "",
                     "en": ""
@@ -105,7 +105,7 @@
                 "type": "coloring",
                 "no": "Hårfarging",
                 "en": "Hair coloring",
-                "price": "500",
+                "price": "1200",
                 "pre_text": {
                     "no": "Frå",
                     "en": "From"
@@ -115,7 +115,7 @@
                 "type": "highlights",
                 "no": "Striper",
                 "en": "Highlights",
-                "price": "600",
+                "price": "1100",
                 "pre_text": {
                     "no": "Frå",
                     "en": "From"
@@ -125,7 +125,7 @@
                 "type": "perm",
                 "no": "Permanent",
                 "en": "Perm",
-                "price": "800",
+                "price": "2600",
                 "pre_text": {
                     "no": "Frå",
                     "en": "From"
@@ -135,7 +135,7 @@
                 "type": "children",
                 "no": "Barneklipp",
                 "en": "Children's cut",
-                "price": "250",
+                "price": "490",
                 "pre_text": {
                     "no": "",
                     "en": ""
@@ -145,7 +145,7 @@
                 "type": "beard",
                 "no": "Skjeggklipp",
                 "en": "Beard trim",
-                "price": "150",
+                "price": "350",
                 "pre_text": {
                     "no": "",
                     "en": ""
