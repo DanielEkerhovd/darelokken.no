@@ -32,7 +32,6 @@ export default function languageSwap() {
     const pricingTitle = document.getElementById('pricingTitle');
 
     const pricingList = info.pricing.services;
-    console.log(pricingList);
 
     button.addEventListener('click', () => {
 
