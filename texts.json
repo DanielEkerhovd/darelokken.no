@@ -1,0 +1,84 @@
+{
+    "texts": {
+
+        "utility": {
+
+            "buttons": {
+
+                "booking": {
+                    "no": "Bestille time",
+                    "en": "Book appointment"
+                },
+                "pricing": {
+                    "no": "Priser",
+                    "en": "Pricing"
+                }
+            },
+
+            "from": {
+                "no": "frå",
+                "en": "from"
+            }
+
+
+        },
+
+        "intro": {
+            "intro-start": {
+                "no": "Dårelokken åpna dørene fyste gong i 1988 og har siden den gong vert dreven av to sprudlende damer med fokus på fnasne frisyrer og god service",
+                "en": "Dårelokken opened its doors for the first time in 1988 and has since then been run by two ladies with a focus on nice hairstyles and good service"
+            },
+            "intro-end": {
+                "no": "Du er hjerteleg velkommen til salongen i Vangsgata for ein hårklipp og ein kopp kaffi!",
+                "en": "You are warmly welcome to the salon in Vangsgata for a haircut and a cup of coffee!"
+            }
+        },
+
+        "booking": {
+
+            "booking-header": {
+                "no": "Bestille time?",
+                "en": "Need appointment?"
+            },
+
+            "booking-info": {
+                "no": "Ring oss på",
+                "en": "Call us at"
+            }
+        },
+
+        "hours" {
+            "hours-header": {
+                "no": "Åpningstider",
+                "en": "Opening hours"
+            },
+            "hours-today": {
+                "no": "I dag",
+                "en": "Today"
+            },
+            "hours-week": {
+                "no": "Ukedager",
+                "en": "Weekdays"
+            },
+            "hours-saturday": {
+                "no": "Laurdagar",
+                "en": "Saturday"
+            },
+            "hours-sunday": {
+                "no": "Sundagar",
+                "en": "Sunday"
+            }
+        },
+
+        "pricing": {
+            "pricing-header": {
+                "no": "Priser",
+                "en": "Pricing"
+            },
+            "pricing-info": {
+                "no": ["Herreklipp", "Dameklipp", "Hårfarging", "Striper", "Permanent", "Barneklipp", "Skjeggklipp"],
+                "en": ["Men's cut", "Women's cut", "Hair coloring", "Highlights", "Perm", "Children's cut", "Beard trim"]
+            }
+        }
+    }
+}
