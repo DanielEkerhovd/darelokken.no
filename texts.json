@@ -1,0 +1,156 @@
+{
+
+    "utility": {
+
+        "buttons": {
+
+            "booking": {
+                "no": "Bestille time",
+                "en": "Book appointment"
+            },
+            "pricing": {
+                "no": "Priser",
+                "en": "Pricing"
+            }
+        },
+
+        "from": {
+            "no": "frå",
+            "en": "from"
+        },
+
+        "closed": {
+            "no": "Stengt",
+            "en": "Closed"
+        }
+
+
+    },
+
+    "intro": {
+        "intro_start": {
+            "no": "Dårelokken åpna dørene fyste gong i 1988 og har siden den gong vert dreven av to sprudlende damer med fokus på fnasne frisyrer og god service",
+            "en": "Dårelokken opened its doors for the first time in 1988 and has since then been run by two ladies with a focus on nice hairstyles and good service"
+        },
+        "intro_end": {
+            "no": "Du er hjerteleg velkommen til salongen i Vangsgata for ein hårklipp og ein kopp kaffi!",
+            "en": "You are warmly welcome to the salon in Vangsgata for a haircut and a cup of coffee!"
+        }
+    },
+
+    "booking": {
+
+        "booking_header": {
+            "no": "Bestille time?",
+            "en": "Need an appointment?"
+        },
+
+        "booking_info": {
+            "no": "Ring oss på",
+            "en": "Call us at"
+        }
+    },
+
+    "hours": {
+        "hours_header": {
+            "no": "Åpningstider",
+            "en": "Opening hours"
+        },
+        "hours_today": {
+            "no": "I dag",
+            "en": "Today"
+        },
+        "hours_week": {
+            "no": "Ukedagar",
+            "en": "Weekdays"
+        },
+        "hours_saturday": {
+            "no": "Laurdagar",
+            "en": "Saturday"
+        },
+        "hours_sunday": {
+            "no": "Sundagar",
+            "en": "Sunday"
+        }
+    },
+
+    
+    "pricing": {
+        "pricing_header": {
+            "no": "Priser",
+            "en": "Pricing"
+        },
+        "services": [
+            {
+                "type": "men",
+                "no": "Herreklipp",
+                "en": "Men's cut",
+                "price": "300",
+                "pre_text": {
+                    "no": "",
+                    "en": ""
+                }
+            },
+            {
+                "type": "women",
+                "no": "Dameklipp",
+                "en": "Women's cut",
+                "price": "500",
+                "pre_text": {
+                    "no": "",
+                    "en": ""
+                }
+            },
+            {
+                "type": "coloring",
+                "no": "Hårfarging",
+                "en": "Hair coloring",
+                "price": "500",
+                "pre_text": {
+                    "no": "Frå",
+                    "en": "From"
+                }
+            },
+            {
+                "type": "highlights",
+                "no": "Striper",
+                "en": "Highlights",
+                "price": "600",
+                "pre_text": {
+                    "no": "Frå",
+                    "en": "From"
+                }
+            },
+            {
+                "type": "perm",
+                "no": "Permanent",
+                "en": "Perm",
+                "price": "800",
+                "pre_text": {
+                    "no": "Frå",
+                    "en": "From"
+                }
+            },
+            {
+                "type": "children",
+                "no": "Barneklipp",
+                "en": "Children's cut",
+                "price": "250",
+                "pre_text": {
+                    "no": "",
+                    "en": ""
+                }
+            },
+            {
+                "type": "beard",
+                "no": "Skjeggklipp",
+                "en": "Beard trim",
+                "price": "150",
+                "pre_text": {
+                    "no": "",
+                    "en": ""
+                }
+            }
+        ]
+    }
+}

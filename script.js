@@ -1,68 +1,21 @@
-// Click events
+import scrollEvents from "./src/js/scrollEvents.mjs";
+import openingHours from "./src/js/openingHours.mjs";
+import heroRandomizer from "./src/js/heroRandomizer.mjs";
+import createPricingList from "./src/js/createPricingList.mjs";
+import languageSwap from "./src/js/languageSwap.mjs";
 
-const bestilleButtons = document.querySelectorAll('.bestilleTimeButton');
-const priserButton = document.getElementById('priserButton');
-const bestillTimeContent = document.getElementById('bestilleTime');
-const sePriser = document.getElementById('sePriser');
+//Adds scrollevents 
 
-bestilleButtons.forEach(button => {
-    button.addEventListener('click', () => {
-        firstRow.scrollIntoView({behavior: "smooth"});
-    });
-});
+scrollEvents();
 
-priserButton.addEventListener('click', () => {
-    sePriser.scrollIntoView({behavior: "smooth"});
-});
+// Updates opening hours
 
-// Today's date
-
-const openingHours = {
-
-    weekdays: {
-        open: '08:00',
-        close: '17:00'
-    },
-    saturday: {
-        open: '09:00',
-        close: '14:00'
-    },
-    sunday: {
-        open: 'closed',
-        close: 'closed'
-    }
-};
-
-const todayContainer = document.getElementById('hoursToday');
-
-const today = new Date();
-const day = today.getDay();
-
-todayContainer.innerHTML = ""
-
-if (day === 0) {
-
-        todayContainer.innerHTML = `${openingHours.sunday.close}`;
-
-    } else if (day === 6) {
-        // todayContainer.innerHTML = `${openingHours.saturday.open} - ${openingHours.saturday.close}`;
-        todayContainer.innerHTML = `kommer`;
-
-    } else {
-        // todayContainer.innerHTML = `${openingHours.weekdays.open} - ${openingHours.weekdays.close}`;
-        todayContainer.innerHTML = `kommer`;
-        
-}
+openingHours();
 
 // Hero image randomizer
 
-const heroContent = document.getElementById('heroContent');
-const heroImage = document.createElement('img');
-heroImage.classList.add('h-full');
-heroImage.alt = "Hero image";
+heroRandomizer();
 
-const heroImages = ['src/media/model1.png', 'src/media/model2.png', 'src/media/model3.png'];
-heroImage.src = heroImages[Math.floor(Math.random() * heroImages.length)];
+createPricingList();
+languageSwap();
 
-heroContent.innerHTML = "";
-heroContent.appendChild(heroImage);
