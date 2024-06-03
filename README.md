@@ -1,6 +1,4 @@
-# Project Title
-
-Dårelokken Frisør Website
+# DÅRELOKKEN
 
 ## Description
 
