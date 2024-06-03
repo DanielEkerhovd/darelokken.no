@@ -1,5 +1,3 @@
-
-
 // Click events
 
 const bestilleButtons = document.querySelectorAll('.bestilleTimeButton');
