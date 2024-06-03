@@ -25,7 +25,7 @@
                 <h1 class="font-medium text-xl sm:text-4xl">DÅRELOKKEN</h1>
                 <p class="font-light text-xs sm:text-lg">Frisøren pao Voss</p>
             </div>
-            <a class="h-3/6 w-24 sm:w-36" href="#"><button class="bg-lightFocus text-xs h-full w-full sm:text-lg">BESTILL TIME</button></a>
+            <button id="bestillTime" class="bg-lightFocus text-xs h-3/6 w-24 sm:w-36 sm:text-lg">BESTILL TIME</button>
         </div>
     </header>
 
@@ -38,20 +38,20 @@
 
         <!-- Action buttons -->
         <div class="flex gap-5 justify-between sm:justify-center sm:w-8/12 sm:mx-auto">
-            <a class="flex-1 h-12 bg-lightFocus md:max-w-72" href="#"><button class="h-full w-full">BESTILL TIME <time datetime=""></time></button></a>
-            <a class="min-w-32 sm:min-w-48 h-12 flex-2 bg-mediumFocus" href="#"><button class="h-full w-full">PRISER <time datetime=""></time></button></a>
+            <button id="bestillTime" class="flex-1 h-12 bg-lightFocus md:max-w-72">BESTILL TIME</button>
+            <button id="sePriser" class="min-w-32 sm:min-w-48 h-12 flex-2 bg-mediumFocus">PRISER</button>
         </div>
 
         <!-- Introtext -->
 
-        <div class="flex flex-col gap-2 text-white px-7 py-2 md:text-xl max-w-screen-sm mx-auto sm:my-14 font-medium">
+        <div class="flex flex-col gap-2 text-white px-7 py-2 md:text-xl max-w-screen-sm mx-auto sm:my-14 font-medium tracking-wide">
             <p>Dårelokken åpna dørene fyste gong i 2002 og har siden den gong vert dreven av to sprudlende damer med fokus på fnasne frisyrer og god service</p>
             <p>Du er hjerteleg velkommen inn for ein hårklipp og ein kaffi!</p>
         </div>
 
         <!-- First row -->
 
-        <div class="flex flex-col justify-between md:flex-row gap-5 w-full h-full">
+        <div class="flex flex-col justify-between md:flex-row gap-5 w-full h-full" id="firstRow">
 
             <!-- Bestille time -->
 
@@ -99,11 +99,11 @@
 
         <!-- Second row -->
 
-        <div class="flex flex-col justify-between md:flex-row-reverse gap-5 w-full h-full">
+        <div class="flex flex-col justify-between md:flex-row-reverse gap-5 w-full h-full" id="secondRow">
 
         <!-- Adresse -->
 
-        <a href="https://www.google.com/maps/search/darelokken-fris%C3%B8r-as" target="_blank" class="flex content-center justify-center items-center gap-2 bg-lightFocus py-10 px-8 flex-1">
+        <a href="https://maps.app.goo.gl/3BaVNgtbyrVBXFHa6" target="_blank" class="flex content-center justify-center items-center gap-2 bg-lightFocus py-10 px-8 flex-1">
             <img class="size-10 sm:size-14" src="/src/media/home.png" alt="Home icon">
             <address class="not-italic">
                 <p class="text-xl font-semibold sm:text-3xl">Vangsgata 50</p>
