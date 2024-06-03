@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-    content: ["./**/*.html"],
+    content: ["./**/*.{html,js,ts,jsx,tsx}"],
     theme: {
       extend: {
         colors: {
@@ -10,7 +10,8 @@ module.exports = {
           darkFocus: "#C39898",
         },
         fontFamily: {
-          sans: ['Poppins', "sans-serif"],
+          poppins: ['Poppins', "sans-serif"],
+          sans: ['"Open Sans"', "sans-serif"],
         },
       },
     },

@@ -8,17 +8,22 @@
 
     <meta name="description" content="Velkommen til Dårelokken Frisør, lokalisert i hjertet av Vangsgata på Voss! Me tilbyr ein rekke ulike behandlingar og hårklippar.">
 
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+    <link rel="icon" href="/src/media/D-icon.png" type="image/x-icon">
     <link rel="stylesheet" href="dist/styles.css">
+
 </head>
 
-<body class="bg-background pt-5">
+<body class="bg-background pt-5"> 
 
     <header class="h-20 sm:h-28 flex">
         <div class="mx-auto h-full flex items-center justify-between w-11/12 max-w-4xl">
             <!-- Logo -->
             <div class="text-white">
                 <h1 class="font-medium text-xl sm:text-4xl">DÅRELOKKEN</h1>
-                <p class="font-thin text-xs sm:text-lg">Frisøren pao Voss</p>
+                <p class="font-light text-xs sm:text-lg">Frisøren pao Voss</p>
             </div>
             <a class="h-3/6 w-24 sm:w-36" href="#"><button class="bg-lightFocus text-xs h-full w-full sm:text-lg">BESTILL TIME</button></a>
         </div>
@@ -34,28 +39,29 @@
         <!-- Action buttons -->
         <div class="flex gap-5 justify-between sm:justify-center sm:w-8/12 sm:mx-auto">
             <a class="flex-1 h-12 bg-lightFocus md:max-w-72" href="#"><button class="h-full w-full">BESTILL TIME <time datetime=""></time></button></a>
-            <a class="min-w-32 h-12 flex-2 bg-mediumFocus" href="#"><button class="h-full w-full">PRISER <time datetime=""></time></button></a>
+            <a class="min-w-32 sm:min-w-48 h-12 flex-2 bg-mediumFocus" href="#"><button class="h-full w-full">PRISER <time datetime=""></time></button></a>
         </div>
 
         <!-- Introtext -->
 
-        <div class="flex flex-col gap-2 text-white px-7 py-2">
-            <p>Dårelokken er drevne av to flotte budeier anno 2002, med fokus på god hårpleie og fnasne frisyrer</p>
-            <p>Kom gjerne innom for ein hårklipp og ein kaffi!</p>
+        <div class="flex flex-col gap-2 text-white px-7 py-2 md:text-xl max-w-screen-sm mx-auto sm:my-14 font-medium">
+            <p>Dårelokken åpna dørene fyste gong i 2002 og har siden den gong vert dreven av to sprudlende damer med fokus på fnasne frisyrer og god service</p>
+            <p>Du er hjerteleg velkommen inn for ein hårklipp og ein kaffi!</p>
         </div>
 
+        <!-- First row -->
 
         <div class="flex flex-col justify-between md:flex-row gap-5 w-full h-full">
 
             <!-- Bestille time -->
 
-            <a href="tel:+4756510540" class="flex-1 bg-red-300">
+            <a href="tel:+4756510540" class="flex-1">
                 <div class="bg-lightFocus py-10 px-8 h-full md:flex md:items-center">
-                    <div class="max-w-sm flex content-center justify-between mx-auto md:gap-8">
+                    <div class="max-w-sm md:flex-col flex content-center items-center justify-between mx-auto md:gap-8">
                         <h2 class="flex items-center text-sm sm:text-2xl">BESTILLE TIME?</h2>
-                        <div class="text-sm sm:text-xl">
+                        <div class="text-md sm:text-1xl flex flex-col gap-4 items-center">
                             <p>Ring oss på</p>
-                            <address class="not-italic text-md shorterSpaces">+47 56 51 05 40</address>
+                            <address class="not-italic text-lg sm:text-3xl shorterSpaces">+47 56 51 05 40</address>
                         </div>
                     </div>
                 </div>
@@ -63,57 +69,58 @@
     
             <!-- Åpningstider -->
     
-            <div class="flex flex-col items-center justify-center bg-mediumFocus py-10 px-8 gap-6 min-w-80">
+            <div class="flex flex-col items-center justify-center bg-mediumFocus py-10 px-8 gap-6 sm:min-w-80">
     
-                <h2 class="flex items-center text-2xl">ÅPNINGSTIDER</h2>
+                <div class="flex flex-col justify-between mx-auto gap-4 w-full sm:min-w-72">
+                    <h2 class="flex items-center sm:text-2xl mb-8 mx-auto">ÅPNINGSTIDER</h2>
                 
-                <div class="w-full flex justify-between md:text-lg">
-                    <p>I dag</p>
-                    <p>09:00 - 18:00</p>
-                </div>
-            
-                <div class="w-full flex flex-col gap-1 md:text-lg">
-                    <div class="flex justify-between">
-                        <p>Ukedager</p>
+                    <div class="w-full flex justify-between sm:text-lg">
+                        <p>I dag</p>
                         <p>09:00 - 18:00</p>
                     </div>
-                    <div class="flex justify-between">
-                        <p>Lørdager</p>
-                        <p>10:00 - 16:00</p>
-                    </div>
-                    <div class="flex justify-between">
-                        <p>Søndager</p>
-                        <p>Stengt</p>
+                
+                    <div class="w-full flex flex-col gap-1 sm:text-lg">
+                        <div class="flex justify-between">
+                            <p>Ukedager</p>
+                            <p>09:00 - 18:00</p>
+                        </div>
+                        <div class="flex justify-between">
+                            <p>Lørdager</p>
+                            <p>10:00 - 16:00</p>
+                        </div>
+                        <div class="flex justify-between">
+                            <p>Søndager</p>
+                            <p>Stengt</p>
+                        </div>
                     </div>
                 </div>
             </div>
-
         </div>
 
-        <div>
+        <!-- Second row -->
 
-        </div>
+        <div class="flex flex-col justify-between md:flex-row-reverse gap-5 w-full h-full">
 
         <!-- Adresse -->
 
-        <a href="https://www.google.com/maps/search/darelokken-fris%C3%B8r-as" target="_blank" class="flex content-center justify-center gap-2 bg-lightFocus py-10 px-8">
-            <img class="size-10" src="/src/media/home.png" alt="Home icon">
+        <a href="https://www.google.com/maps/search/darelokken-fris%C3%B8r-as" target="_blank" class="flex content-center justify-center items-center gap-2 bg-lightFocus py-10 px-8 flex-1">
+            <img class="size-10 sm:size-14" src="/src/media/home.png" alt="Home icon">
             <address class="not-italic">
-                <p class="text-xl font-semibold ">Vangsgata 50</p>
-                <p class="text-light text-sm">5700 Voss</p>
+                <p class="text-xl font-semibold sm:text-3xl">Vangsgata 50</p>
+                <p class="text-light text-sm sm:text-lg">5700 Voss</p>
             </address>
         </a>
 
         <!-- Priser -->
 
-        <div class="flex flex-col items-center justify-center bg-mediumFocus py-10 px-8 gap-6">
+        <div class="flex flex-col items-center justify-center bg-mediumFocus py-10 px-8 gap-6 flex-1">
 
-            <div class="flex items-end gap-1">
-                <h2 class="flex items-end font-semibold">PRISER</h2>
-                <p class="text-xs font-thin">2024</p>
+            <div class="flex items-center gap-1">
+                <h2 class="flex items-end sm:text-2xl">PRISER</h2>
+                <p class="text-md font-light">2024</p>
             </div>
             
-            <div class="w-full flex flex-col gap-1">
+            <div class="w-full flex flex-col gap-1 sm:text-lg">
                 <div class="flex justify-between">
                     <p>Herreklipp</p>
                     <p><span class="font-semibold">500</span> kr</p>
@@ -144,6 +151,9 @@
                 </div>
             </div>
         </div>
+        </div>
+
+
     </main>
 </body>
 </html>
