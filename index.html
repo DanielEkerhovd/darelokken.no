@@ -13,27 +13,27 @@
 
 <body class="bg-background pt-5">
 
-    <header class="h-20 flex">
-        <div class="mx-auto h-full flex items-center justify-between w-11/12">
+    <header class="h-20 sm:h-28 flex">
+        <div class="mx-auto h-full flex items-center justify-between w-11/12 max-w-4xl">
             <!-- Logo -->
             <div class="text-white">
-                <h1 class="font-medium text-xl">DÅRELOKKEN</h1>
-                <p class="font-thin text-xs">Frisøren pao Voss</p>
+                <h1 class="font-medium text-xl sm:text-4xl">DÅRELOKKEN</h1>
+                <p class="font-thin text-xs sm:text-lg">Frisøren pao Voss</p>
             </div>
-            <a class="h-3/6 w-24" href="#"><button class="bg-lightFocus text-xs h-full w-full">BESTILL TIME</button></a>
+            <a class="h-3/6 w-24 sm:w-36" href="#"><button class="bg-lightFocus text-xs h-full w-full sm:text-lg">BESTILL TIME</button></a>
         </div>
     </header>
 
-    <main class="mx-auto w-11/12 flex flex-col gap-5 mb-14">
+    <main class="mx-auto w-11/12 max-w-4xl flex flex-col gap-5 mb-14">
 
         <!-- hero -->
-        <div class="bg-lightFocus h-28 flex justify-center">
+        <div class="bg-lightFocus h-28 sm:h-52 md:h-72 flex justify-center">
             <img class="h-full" src="/src/media/hero-profile.png" alt="Hair model">
         </div>
 
         <!-- Action buttons -->
-        <div class="flex gap-5 justify-between">
-            <a class="flex-1 h-12 bg-lightFocus" href="#"><button class="h-full w-full">BESTILL TIME <time datetime=""></time></button></a>
+        <div class="flex gap-5 justify-between sm:justify-center sm:w-8/12 sm:mx-auto">
+            <a class="flex-1 h-12 bg-lightFocus md:max-w-72" href="#"><button class="h-full w-full">BESTILL TIME <time datetime=""></time></button></a>
             <a class="min-w-32 h-12 flex-2 bg-mediumFocus" href="#"><button class="h-full w-full">PRISER <time datetime=""></time></button></a>
         </div>
 
@@ -44,43 +44,54 @@
             <p>Kom gjerne innom for ein hårklipp og ein kaffi!</p>
         </div>
 
-        <!-- Bestille time  -->
 
-        <a href="tel:+4756510540">
-            <div class="flex content-center justify-between bg-lightFocus py-10 px-8">
-                <h2 class="flex items-center text-sm">BESTILLE TIME?</h2>
-                <div class="text-sm">
-                    <p>Ring oss på</p>
-                    <address class="not-italic text-md shorterSpaces">+47 56 51 05 40</address>
+        <div class="flex flex-col justify-between md:flex-row gap-5 w-full h-full">
+
+            <!-- Bestille time -->
+
+            <a href="tel:+4756510540" class="flex-1 bg-red-300">
+                <div class="bg-lightFocus py-10 px-8 h-full md:flex md:items-center">
+                    <div class="max-w-sm flex content-center justify-between mx-auto md:gap-8">
+                        <h2 class="flex items-center text-sm sm:text-2xl">BESTILLE TIME?</h2>
+                        <div class="text-sm sm:text-xl">
+                            <p>Ring oss på</p>
+                            <address class="not-italic text-md shorterSpaces">+47 56 51 05 40</address>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </a>        
-
-        <!-- Åpningstider -->
-
-        <div class="flex flex-col items-center justify-center bg-mediumFocus py-10 px-8 gap-6">
-
-            <h2 class="flex items-center font-semibold">ÅPNINGSTIDER</h2>
-            
-            <div class="w-full flex justify-between">
-                <p>I dag</p>
-                <p>09:00 - 18:00</p>
-            </div>
-        
-            <div class="w-full flex flex-col gap-1">
-                <div class="flex justify-between">
-                    <p>Ukedager</p>
+            </a>        
+    
+            <!-- Åpningstider -->
+    
+            <div class="flex flex-col items-center justify-center bg-mediumFocus py-10 px-8 gap-6 min-w-80">
+    
+                <h2 class="flex items-center text-2xl">ÅPNINGSTIDER</h2>
+                
+                <div class="w-full flex justify-between md:text-lg">
+                    <p>I dag</p>
                     <p>09:00 - 18:00</p>
                 </div>
-                <div class="flex justify-between">
-                    <p>Lørdager</p>
-                    <p>10:00 - 16:00</p>
-                </div>
-                <div class="flex justify-between">
-                    <p>Søndager</p>
-                    <p>Stengt</p>
+            
+                <div class="w-full flex flex-col gap-1 md:text-lg">
+                    <div class="flex justify-between">
+                        <p>Ukedager</p>
+                        <p>09:00 - 18:00</p>
+                    </div>
+                    <div class="flex justify-between">
+                        <p>Lørdager</p>
+                        <p>10:00 - 16:00</p>
+                    </div>
+                    <div class="flex justify-between">
+                        <p>Søndager</p>
+                        <p>Stengt</p>
+                    </div>
                 </div>
             </div>
+
+        </div>
+
+        <div>
+
         </div>
 
         <!-- Adresse -->
