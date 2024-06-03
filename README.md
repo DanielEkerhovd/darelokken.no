@@ -6,6 +6,10 @@ Dårelokken is a hairsaloon run by two ladies since 1988 in the heart of Vosseva
 They have only had information on a facebook-profile up til now. 
 As a private project, i created this website so that customers have an easier access to information.
 
+## Link to website
+
+[Darelokken.no](https://darelokken.no/)
+
 ## Getting Started
 
 
