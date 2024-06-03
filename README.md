@@ -24,7 +24,7 @@ gh repo clone DanielEkerhovd/darelokken.git
 ```
 npm install
 ```
-*Run program
+* Run program
 ```
 npm run dev
 ```
