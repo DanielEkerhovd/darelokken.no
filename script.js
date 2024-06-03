@@ -41,9 +41,15 @@ const day = today.getDay();
 todayContainer.innerHTML = ""
 
 if (day === 0) {
-    todayContainer.innerHTML = `${openingHours.sunday.close}`;
-} else if (day === 6) {
-    todayContainer.innerHTML = `${openingHours.saturday.open} - ${openingHours.saturday.close}`;
-} else {
-    todayContainer.innerHTML = `${openingHours.weekdays.open} - ${openingHours.weekdays.close}`;
+
+        todayContainer.innerHTML = `${openingHours.sunday.close}`;
+
+    } else if (day === 6) {
+        // todayContainer.innerHTML = `${openingHours.saturday.open} - ${openingHours.saturday.close}`;
+        todayContainer.innerHTML = `kommer`;
+
+    } else {
+        // todayContainer.innerHTML = `${openingHours.weekdays.open} - ${openingHours.weekdays.close}`;
+        todayContainer.innerHTML = `kommer`;
+        
 }
