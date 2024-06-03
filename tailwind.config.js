@@ -10,7 +10,7 @@ module.exports = {
           darkFocus: "#C39898",
         },
         fontFamily: {
-          sans: ["'Poppins'", "sans-serif"],
+          sans: ['Poppins', "sans-serif"],
         },
       },
     },
