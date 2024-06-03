@@ -41,3 +41,6 @@ npm run dev
 
 * 0.1
     * Initial Release
+
+* 0.2
+    * Added randomized hero img
