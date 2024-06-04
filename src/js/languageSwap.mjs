@@ -25,8 +25,8 @@ export default function languageSwap() {
     const hoursTitle = document.getElementById('hoursTitle');
     const todayTitle = document.getElementById('todayTitle');
     const weekTitle = document.getElementById('weekTitle');
-    const saturdayTitle = document.getElementById('saturdayTitle');
-    const sundayTitle = document.getElementById('sundayTitle');
+    const tirOnsTitle = document.getElementById('tirOnsTitle');
+    const weekendTitle = document.getElementById('weekendTitle');
     const closedTitle = document.getElementById('closedTitle');
 
     const pricingTitle = document.getElementById('pricingTitle');
@@ -60,8 +60,8 @@ export default function languageSwap() {
         hoursTitle.textContent = info.hours.hours_header[currentLanguage];
         todayTitle.textContent = info.hours.hours_today[currentLanguage];
         weekTitle.textContent = info.hours.hours_week[currentLanguage];
-        saturdayTitle.textContent = info.hours.hours_saturday[currentLanguage];
-        sundayTitle.textContent = info.hours.hours_sunday[currentLanguage];
+        tirOnsTitle.textContent = info.hours.tir_ons[currentLanguage];
+        weekendTitle.textContent = info.hours.hours_weekend[currentLanguage];
         closedTitle.textContent = info.utility.closed[currentLanguage];
 
         pricingTitle.textContent = info.pricing.pricing_header[currentLanguage];

@@ -64,13 +64,13 @@
             "no": "Ukedagar",
             "en": "Weekdays"
         },
-        "hours_saturday": {
-            "no": "Laurdagar",
-            "en": "Saturday"
+        "tir_ons": {
+            "no": "Tir/Ons",
+            "en": "Tue/Wed"
         },
-        "hours_sunday": {
-            "no": "Sundagar",
-            "en": "Sunday"
+        "hours_weekend": {
+            "no": "Helg",
+            "en": "Weekend"
         }
     },
 

@@ -2,13 +2,29 @@ export default function openingHours() {
 
     const openingHours = {
 
-        weekdays: {
-            open: '08:00',
+        monday: {
+            open: '09:00',
+            close: '17:00'
+        },
+        tuesday: {
+            open: '09:00',
+            close: '18:00'
+        },
+        wednesday: {
+            open: '09:00',
+            close: '18:00'
+        },
+        thursday: {
+            open: '09:00',
+            close: '17:00'
+        },
+        friday: {
+            open: '09:00',
             close: '17:00'
         },
         saturday: {
-            open: '09:00',
-            close: '14:00'
+            open: 'closed',
+            close: 'closed'
         },
         sunday: {
             open: 'closed',
@@ -23,17 +39,25 @@ export default function openingHours() {
     
     todayContainer.innerHTML = ""
     
-    if (day === 0) {
-    
-            todayContainer.innerHTML = `${openingHours.sunday.close}`;
-    
-        } else if (day === 6) {
-            // todayContainer.innerHTML = `${openingHours.saturday.open} - ${openingHours.saturday.close}`;
-            todayContainer.innerHTML = `kommer`;
-    
-        } else {
-            // todayContainer.innerHTML = `${openingHours.weekdays.open} - ${openingHours.weekdays.close}`;
-            todayContainer.innerHTML = `kommer`;
-            
-    }
+    switch(day) {
+        case 1:
+            todayContainer.innerHTML = `${openingHours.monday.open} - ${openingHours.monday.close}`;
+            break;
+        case 2:
+            todayContainer.innerHTML = `${openingHours.tuesday.open} - ${openingHours.tuesday.close}`;
+            break;
+        case 3:
+            todayContainer.innerHTML = `${openingHours.wednesday.open} - ${openingHours.wednesday.close}`;
+            break;
+        case 4:
+            todayContainer.innerHTML = `${openingHours.thursday.open} - ${openingHours.thursday.close}`;
+            break;
+        case 5:
+            todayContainer.innerHTML = `${openingHours.friday.open} - ${openingHours.friday.close}`;
+            break;
+        case 6:
+        case 0:
+            todayContainer.innerHTML = "Closed";
+            break;
+    };
 };
