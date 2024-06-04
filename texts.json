@@ -135,6 +135,16 @@
                 }
             },
             {
+                "type": "lashes_brows",
+                "no": "Vipper / Bryn",
+                "en": "Lashes / Brows",
+                "price": "340",
+                "pre_text": {
+                    "no": "Frå",
+                    "en": "From"
+                }
+            },
+            {
                 "type": "children_8_14",
                 "no": "Barneklipp 8-14 år",
                 "en": "Children's cut 8-14 y",
