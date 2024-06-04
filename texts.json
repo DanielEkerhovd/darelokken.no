@@ -22,9 +22,12 @@
         "closed": {
             "no": "Stengt",
             "en": "Closed"
+        },
+
+        "more_options": {
+            "no": "Vi har flere behandlinger, ta kontakt med oss for utvalg og priser!",
+            "en": "We have more services, contact us for pricing!"
         }
-
-
     },
 
     "intro": {
@@ -85,7 +88,7 @@
                 "type": "men",
                 "no": "Herreklipp",
                 "en": "Men's cut",
-                "price": "680",
+                "price": "640",
                 "pre_text": {
                     "no": "",
                     "en": ""
@@ -95,17 +98,17 @@
                 "type": "women",
                 "no": "Dameklipp",
                 "en": "Women's cut",
-                "price": "970",
+                "price": "700",
                 "pre_text": {
-                    "no": "",
-                    "en": ""
+                    "no": "Frå",
+                    "en": "From"
                 }
             },
             {
                 "type": "coloring",
                 "no": "Hårfarging",
                 "en": "Hair coloring",
-                "price": "1200",
+                "price": "900",
                 "pre_text": {
                     "no": "Frå",
                     "en": "From"
@@ -115,37 +118,37 @@
                 "type": "highlights",
                 "no": "Striper",
                 "en": "Highlights",
-                "price": "1100",
+                "price": "1130",
                 "pre_text": {
                     "no": "Frå",
                     "en": "From"
                 }
             },
             {
-                "type": "perm",
-                "no": "Permanent",
-                "en": "Perm",
-                "price": "2600",
+                "type": "foil_highlights",
+                "no": "Foliestriper",
+                "en": "Foil highlights",
+                "price": "1750",
                 "pre_text": {
                     "no": "Frå",
                     "en": "From"
                 }
             },
             {
-                "type": "children",
-                "no": "Barneklipp",
-                "en": "Children's cut",
-                "price": "490",
+                "type": "children_8_14",
+                "no": "Barneklipp 8-14 år",
+                "en": "Children's cut 8-14 y",
+                "price": "500",
                 "pre_text": {
                     "no": "",
                     "en": ""
                 }
             },
             {
-                "type": "beard",
-                "no": "Skjeggklipp",
-                "en": "Beard trim",
-                "price": "350",
+                "type": "children_0_7",
+                "no": "Barneklipp 0-7 år",
+                "en": "Children's cut 0-7 y",
+                "price": "370",
                 "pre_text": {
                     "no": "",
                     "en": ""

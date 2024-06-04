@@ -25,10 +25,15 @@ export default function createPricingList() {
             p2.textContent = element.price + ' kr';
         }
 
-        div.appendChild(p1);
-        div.appendChild(p2);
+        div.append(p1, p2);
 
         container.appendChild(div);
 
     });
+
+    const moreInfo = document.createElement('p');
+    moreInfo.id = "morePriceInfo"
+    moreInfo.classList.add('text-center', 'text-sm', 'mt-4');
+    moreInfo.textContent = info.utility.more_options.no;
+    container.appendChild(moreInfo);
 };

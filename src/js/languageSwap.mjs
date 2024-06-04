@@ -29,6 +29,7 @@ export default function languageSwap() {
     const weekendTitle = document.getElementById('weekendTitle');
     const closedTitle = document.getElementById('closedTitle');
 
+    const morePriceInfo = document.getElementById('morePriceInfo');
     const pricingTitle = document.getElementById('pricingTitle');
 
     const pricingList = info.pricing.services;
@@ -63,6 +64,8 @@ export default function languageSwap() {
         tirOnsTitle.textContent = info.hours.tir_ons[currentLanguage];
         weekendTitle.textContent = info.hours.hours_weekend[currentLanguage];
         closedTitle.textContent = info.utility.closed[currentLanguage];
+
+        morePriceInfo.textContent = info.utility.more_options[currentLanguage];
 
         pricingTitle.textContent = info.pricing.pricing_header[currentLanguage];
 
