@@ -23,11 +23,11 @@ export default function openingHours() {
             close: '17:00'
         },
         saturday: {
-            open: 'closed',
+            open: '',
             close: 'closed'
         },
         sunday: {
-            open: 'closed',
+            open: '',
             close: 'closed'
         }
     };
@@ -57,7 +57,7 @@ export default function openingHours() {
             break;
         case 6:
         case 0:
-            todayContainer.innerHTML = "Closed";
+            todayContainer.innerHTML = "Stengt";
             break;
     };
 };

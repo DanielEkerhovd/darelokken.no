@@ -23,7 +23,8 @@ export default function languageSwap() {
     const bestilleTimeCall = document.getElementById('bestilleTimeCall');
 
     const hoursTitle = document.getElementById('hoursTitle');
-    const todayTitle = document.getElementById('todayTitle');
+    const todayTitle = document.getElementById('todayTitle')
+    const todayTime = document.getElementById('hoursToday');
     const weekTitle = document.getElementById('weekTitle');
     const tirOnsTitle = document.getElementById('tirOnsTitle');
     const weekendTitle = document.getElementById('weekendTitle');
@@ -64,6 +65,10 @@ export default function languageSwap() {
         tirOnsTitle.textContent = info.hours.tir_ons[currentLanguage];
         weekendTitle.textContent = info.hours.hours_weekend[currentLanguage];
         closedTitle.textContent = info.utility.closed[currentLanguage];
+
+        if (todayTime.textContent === 'Closed' || todayTime.textContent === 'Stengt') {
+            todayTime.textContent = info.utility.closed[currentLanguage];
+        }
 
         morePriceInfo.textContent = info.utility.more_options[currentLanguage];
 
