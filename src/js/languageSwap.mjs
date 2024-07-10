@@ -1,6 +1,17 @@
-import texts from '/texts.json' with { type: 'json' };
+async function loadTexts() {
+    try {
+      const module = await import('/texts.json', { assert: { type: 'json' } });
+      const texts = module.default;
+      return texts;
+    } catch (error) {
+      console.error('Error loading JSON:', error);
+      throw error;
+    }
+  }
 
-export default function languageSwap() {
+export default async function languageSwap() {
+
+    const texts = await loadTexts();
 
     const info = texts;
     let currentLanguage = 'no';
