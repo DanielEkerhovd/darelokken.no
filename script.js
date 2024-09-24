@@ -5,17 +5,16 @@ import createPricingList from "./src/js/createPricingList.mjs";
 import languageSwap from "./src/js/languageSwap.mjs";
 
 //Adds scrollevents 
-
 scrollEvents();
 
-// Updates opening hours
-
-openingHours();
-
 // Hero image randomizer
-
 heroRandomizer();
 
-createPricingList();
-languageSwap();
+// Opening hours
+openingHours();
 
+// Create pricing list
+createPricingList();
+
+// Language swap
+languageSwap();
