@@ -1,6 +1,17 @@
-import texts from '/texts.json' with { type: 'json' };
+async function loadTexts() {
+    try {
+      const module = await import('/texts.json', { assert: { type: 'json' } });
+      const texts = module.default;
+      return texts;
+    } catch (error) {
+      console.error('Error loading JSON:', error);
+      throw error;
+    }
+  }
 
-export default function languageSwap() {
+export default async function languageSwap() {
+
+    const texts = await loadTexts();
 
     const info = texts;
     let currentLanguage = 'no';
@@ -23,16 +34,17 @@ export default function languageSwap() {
     const bestilleTimeCall = document.getElementById('bestilleTimeCall');
 
     const hoursTitle = document.getElementById('hoursTitle');
-    const todayTitle = document.getElementById('todayTitle');
+    const todayTitle = document.getElementById('todayTitle')
+    const todayTime = document.getElementById('hoursToday');
     const weekTitle = document.getElementById('weekTitle');
-    const saturdayTitle = document.getElementById('saturdayTitle');
-    const sundayTitle = document.getElementById('sundayTitle');
+    const tirOnsTitle = document.getElementById('tirOnsTitle');
+    const weekendTitle = document.getElementById('weekendTitle');
     const closedTitle = document.getElementById('closedTitle');
 
+    const morePriceInfo = document.getElementById('morePriceInfo');
     const pricingTitle = document.getElementById('pricingTitle');
 
     const pricingList = info.pricing.services;
-    console.log(pricingList);
 
     button.addEventListener('click', () => {
 
@@ -61,9 +73,15 @@ export default function languageSwap() {
         hoursTitle.textContent = info.hours.hours_header[currentLanguage];
         todayTitle.textContent = info.hours.hours_today[currentLanguage];
         weekTitle.textContent = info.hours.hours_week[currentLanguage];
-        saturdayTitle.textContent = info.hours.hours_saturday[currentLanguage];
-        sundayTitle.textContent = info.hours.hours_sunday[currentLanguage];
+        tirOnsTitle.textContent = info.hours.tir_ons[currentLanguage];
+        weekendTitle.textContent = info.hours.hours_weekend[currentLanguage];
         closedTitle.textContent = info.utility.closed[currentLanguage];
+
+        if (todayTime.textContent === 'Closed' || todayTime.textContent === 'Stengt') {
+            todayTime.textContent = info.utility.closed[currentLanguage];
+        }
+
+        morePriceInfo.textContent = info.utility.more_options[currentLanguage];
 
         pricingTitle.textContent = info.pricing.pricing_header[currentLanguage];
 

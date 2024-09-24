@@ -22,18 +22,21 @@
         "closed": {
             "no": "Stengt",
             "en": "Closed"
+        },
+
+        "more_options": {
+            "no": "Vi har flere behandlinger, ta kontakt med oss for utvalg og priser!",
+            "en": "We have more services, contact us for pricing!"
         }
-
-
     },
 
     "intro": {
         "intro_start": {
             "no": "Dårelokken åpna dørene fyste gong i 1988 og har siden den gong vert dreven av to sprudlende damer med fokus på fnasne frisyrer og god service",
-            "en": "Dårelokken opened its doors for the first time in 1988 and has since then been run by two ladies with a focus on nice hairstyles and good service"
+            "en": "Dårelokken opened its doors for the first time in 1988 and has since then been run by the same two ladies with a focus on great hair styles and good service"
         },
         "intro_end": {
-            "no": "Du er hjerteleg velkommen til salongen i Vangsgata for ein hårklipp og ein kopp kaffi!",
+            "no": "Du er hjartleg velkommen til salongen i Vangsgata for ein hårklipp og ein kopp kaffi!",
             "en": "You are warmly welcome to the salon in Vangsgata for a haircut and a cup of coffee!"
         }
     },
@@ -64,13 +67,13 @@
             "no": "Ukedagar",
             "en": "Weekdays"
         },
-        "hours_saturday": {
-            "no": "Laurdagar",
-            "en": "Saturday"
+        "tir_ons": {
+            "no": "Tir/Ons",
+            "en": "Tue/Wed"
         },
-        "hours_sunday": {
-            "no": "Sundagar",
-            "en": "Sunday"
+        "hours_weekend": {
+            "no": "Helg",
+            "en": "Weekend"
         }
     },
 
@@ -85,7 +88,7 @@
                 "type": "men",
                 "no": "Herreklipp",
                 "en": "Men's cut",
-                "price": "300",
+                "price": "640",
                 "pre_text": {
                     "no": "",
                     "en": ""
@@ -95,17 +98,17 @@
                 "type": "women",
                 "no": "Dameklipp",
                 "en": "Women's cut",
-                "price": "500",
+                "price": "700",
                 "pre_text": {
-                    "no": "",
-                    "en": ""
+                    "no": "Frå",
+                    "en": "From"
                 }
             },
             {
                 "type": "coloring",
                 "no": "Hårfarging",
                 "en": "Hair coloring",
-                "price": "500",
+                "price": "900",
                 "pre_text": {
                     "no": "Frå",
                     "en": "From"
@@ -115,37 +118,47 @@
                 "type": "highlights",
                 "no": "Striper",
                 "en": "Highlights",
-                "price": "600",
+                "price": "1130",
                 "pre_text": {
                     "no": "Frå",
                     "en": "From"
                 }
             },
             {
-                "type": "perm",
-                "no": "Permanent",
-                "en": "Perm",
-                "price": "800",
+                "type": "foil_highlights",
+                "no": "Foliestriper",
+                "en": "Foil highlights",
+                "price": "1750",
                 "pre_text": {
                     "no": "Frå",
                     "en": "From"
                 }
             },
             {
-                "type": "children",
-                "no": "Barneklipp",
-                "en": "Children's cut",
-                "price": "250",
+                "type": "lashes_brows",
+                "no": "Vipper / Bryn",
+                "en": "Lashes / Brows",
+                "price": "340",
+                "pre_text": {
+                    "no": "Frå",
+                    "en": "From"
+                }
+            },
+            {
+                "type": "children_8_14",
+                "no": "Barneklipp 8-14 år",
+                "en": "Children's cut 8-14 y",
+                "price": "500",
                 "pre_text": {
                     "no": "",
                     "en": ""
                 }
             },
             {
-                "type": "beard",
-                "no": "Skjeggklipp",
-                "en": "Beard trim",
-                "price": "150",
+                "type": "children_0_7",
+                "no": "Barneklipp 0-7 år",
+                "en": "Children's cut 0-7 y",
+                "price": "370",
                 "pre_text": {
                     "no": "",
                     "en": ""
