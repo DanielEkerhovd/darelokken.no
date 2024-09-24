@@ -1,6 +1,20 @@
-import texts from '/texts.json' with { type: 'json' };
+export default async function createPricingList() {
 
-export default function createPricingList() {
+    async function loadJSON() {
+
+
+        try {
+            const response = await fetch('../../texts.json');
+            const text = await response.json();
+            return text;
+        } 
+        catch (error) {
+            console.error('Error loading the file: ', error);
+        }
+    }
+
+    const texts = await loadJSON();
+    console.log(texts);
 
     const info = texts;
     const prices = texts.pricing.services;
